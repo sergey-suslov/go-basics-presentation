@@ -1,0 +1,15 @@
+goos: darwin
+goarch: amd64
+pkg: go-basics-presentation/composite/2-structs/pointer/bench
+BenchmarkMemoryHeap-12    	24023379	        42.9 ns/op	      96 B/op	       1 allocs/op
+BenchmarkMemoryHeap-12    	28496978	        41.9 ns/op	      96 B/op	       1 allocs/op
+BenchmarkMemoryHeap-12    	29578203	        41.2 ns/op	      96 B/op	       1 allocs/op
+BenchmarkMemoryHeap-12    	29456402	        40.7 ns/op	      96 B/op	       1 allocs/op
+BenchmarkMemoryHeap-12    	30027092	        40.7 ns/op	      96 B/op	       1 allocs/op
+BenchmarkMemoryHeap-12    	29926440	        40.2 ns/op	      96 B/op	       1 allocs/op
+BenchmarkMemoryHeap-12    	29992056	        40.7 ns/op	      96 B/op	       1 allocs/op
+BenchmarkMemoryHeap-12    	26096769	        40.6 ns/op	      96 B/op	       1 allocs/op
+BenchmarkMemoryHeap-12    	30043011	        40.8 ns/op	      96 B/op	       1 allocs/op
+BenchmarkMemoryHeap-12    	28963521	        40.6 ns/op	      96 B/op	       1 allocs/op
+PASS
+ok  	go-basics-presentation/composite/2-structs/pointer/bench	12.540s

@@ -37,6 +37,8 @@ func main() {
 	fmt.Printf("cap = %d\n", cap(slice))
 	fmt.Printf("pointer = %p\n", slice)
 
+	pointerToFirstEl := &slice[0]
+
 	// Grows the slice; Updates pointers to the slice
 	for len(slice) < 5 {
 		fmt.Printf("\nAppending...\n")
@@ -45,6 +47,8 @@ func main() {
 		fmt.Printf("cap = %d\n", cap(slice))
 		fmt.Printf("pointer = %p\n", slice)
 	}
+	fmt.Printf("\nPointer to new slice[0]%p\n", &slice[0])
+	fmt.Printf("Pointer to slice[0]%p\n", pointerToFirstEl)
 
 	fmt.Println("--------------------------")
 

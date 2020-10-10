@@ -32,6 +32,10 @@ func (d Developer) PrintAge() {
 	fmt.Println("Print developer's age", d.Age)
 }
 
+func PrintHuman(h Human) {
+	fmt.Println("Human", h)
+}
+
 func main() {
 	fmt.Println("--------------------------")
 
@@ -61,4 +65,9 @@ func main() {
 	developerPaul.Named.PrintName()
 	developerPaul.Manager.PrintAge()
 	fmt.Println("Developer's name direct", developerPaul.Name)
+
+	fmt.Println("--------------------------")
+
+	PrintHuman(developerPaul.Human)
+	//PrintHuman(developerPaul)
 }
